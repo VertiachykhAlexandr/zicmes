@@ -1,1 +1,19 @@
+$secondary: #7042c1;
+$border-radius-pill: 0 5rem 0 5rem;
+$nav-link-color: #67696a;
+$nav-link-hover-color: #1c1e20;
+$utilities: (
+  "height": (
+    property: height,
+    responsive: true,
+    class: h,
+    values: (
+      25: 25%,
+      50: 50%,
+      75: 75%,
+      100: 100%,
+      auto: auto,
+    ),
+  ),
+);
 @import "bootstrap/scss/bootstrap";
